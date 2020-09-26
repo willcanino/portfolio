@@ -4,7 +4,7 @@ body{
   background-color: #caebf2;
 }
 
-h1, h2, h3,{
+h1, h2, h3, h4{
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -116,5 +116,7 @@ hr {
 }
 
 .contact{
-  margin-right: auto;
+  float: right;
+  display: flex;
+  flex-direction: column;
 }
